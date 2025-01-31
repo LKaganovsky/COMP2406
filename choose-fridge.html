@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Available fridges</title>
+        <link rel="stylesheet" type="text/css" href="css/community-fridge.css">
+    </head>
+    <body>
+      <section id="displayFridges">
+        <div><a href="index.html"><button class="returnButton" type="button">Return to main menu</button></a></div>
+        <h1>Available Fridges</h1>
+        <p id="availableFridges">
+          <!-- To be populated dynamically -->
+        </p>
+      </section>
+
+      <section id="openFridge">
+        <div><a href="index.html"><button onclick="returnToMainMenu()" class="returnButton" type="button">Return to fridges</button></a></div>
+        <h1 id="fridgeHeader">Filler</h1>
+        <div id="openFridgeGUI">
+          <div class="panel" id="innerFridgeMenu"></div>
+          <div class="panel" id="fridgeInventory"></div>
+          <div class="panel" id="userSelection"></div>
+        <div>
+      </section>
+
+      <script src="provided_code/js/comm-fridge-data.js"></script>
+      <script src="functionality.js"></script>
+      <script>listFridges();</script>
+    </body>
+</html>

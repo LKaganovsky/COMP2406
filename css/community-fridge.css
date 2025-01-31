@@ -1,0 +1,195 @@
+body {
+  background-color: #B1D8E7;
+  margin-left:      10px;
+}
+
+h1 {
+  color:            #033d4d;
+  font-family:      sans-serif, "Times New Roman", Times, serif;
+  text-align:       center;
+  font-size:        2em;
+}
+
+p {
+  text-align:       center;
+  font-family:      sans-serif, "Times New Roman", Times, serif;
+  color:            White;
+}
+
+.fridgeInfoLine1 {
+  font-family:      sans-serif, "Times New Roman", Times, serif;
+  color:            White;
+  font-size:        1.5em;
+  text-align:       left;
+  margin-left:      15px;
+
+}
+
+.fridgeInfoLine2 {
+  font-family:      sans-serif, "Times New Roman", Times, serif;
+  color:            White;
+  font-size:        .75em;
+  text-align:       left;
+  margin-left:      15px;
+}
+
+.button {
+  color:            white;
+  background-color: #fa8176;
+  padding-top:      10px;
+  padding-bottom:   10px;
+  padding-right:    30px;
+  padding-left:     30px;
+  border-radius:    8px;
+  margin-left:      20px;
+}
+
+.returnButton {
+  margin-left:      40%;
+  position:         absolute;
+  top:              20;
+  right:            20;
+}
+
+button:hover {
+  color:            #D0F5ED;
+  box-shadow:       0 0 3px 2px rgba(3, 61, 77, 255);
+}
+
+div {
+  text-align:       center;
+}
+
+.button-fridge {
+  background-color: LightCoral;
+  margin-left:      50px;
+  margin-right:     20px;
+  margin-bottom:    20px;
+  border-radius:    50%;
+  width:            200px;
+  height:           200px;
+  color:            White;
+  text-align:       center;
+}
+
+.button-fridge:hover {
+  background-color: White;
+  color:            Goldenrod;
+}
+
+h1 {
+  margin-left:      auto;
+  margin-right:     auto;
+  text-align:       center;
+}
+
+#openFridgeGUI {
+  display:          block;
+}
+
+.panel {
+  background-color: LightCoral;
+  border-radius:    10px;
+  width:            250px;
+  height:           500px;
+  position:         absolute;
+  top:              10%;
+}
+
+#innerFridgeMenu {
+  background-color: LightCoral;
+  left:             15%;
+}
+
+#fridgeInventory {
+  background-color: CadetBlue;
+  width:            440px;
+  left:             35%;
+  overflow:         scroll;
+}
+
+#userSelection {
+  background-color: Brown;
+  right:            15%;
+}
+
+.fridgeInventoryTable {
+  margin:           10px;
+}
+
+.fridgeInventoryRow {
+  border-bottom:    3px solid #ddd;
+  border:           3px solid pink;
+}
+
+.fridgeInventoryText {
+  font-family:      sans-serif, "Times New Roman", Times, serif;
+  color:            white;
+  text-align:       left;
+  font-size:        0.75em;
+  width:            210px;
+}
+
+.fridgeInventoryImage {
+  border-radius:    10%;
+}
+
+.fridgeInventoryButton {
+  border-radius:    10px;
+  background-color: Turquoise;
+  border:           2px solid Turquoise;
+  color:            white;
+  height:           25px;
+  width:            30px;
+}
+
+.fridgeInventoryQuantity {
+  font-family:      sans-serif, "Times New Roman", Times, serif;
+  color:            SlateGray;
+  padding-left:     20px;
+  padding-right:    20px;
+  padding-top:      5px;
+  height:           20px;
+  background-color: white;
+  border-radius:    5px;
+
+}
+
+th, td {
+  border-bottom:    2px dotted white;
+}
+
+.capacityOuter {
+  background-color: DarkGrey;
+  font-size:        15px;
+  margin-left:      20px;
+  margin-bottom:    20px;
+  position:         absolute;
+  top:              110px;
+  left:             20px;
+  height:           30px;
+  border-radius:    8px;
+}
+
+
+.capacityInner {
+  background-color: IndianRed;
+  color:            White;
+  position:         absolute;
+  top:              110px;
+  left:             20px;
+  height:           30px;
+  border-radius:    10px;
+}
+
+.foodTypes {
+  text-align:       left;
+  color:            White;
+  margin-left:      20px;
+  margin-bottom:    20px;
+}
+
+.foodTypes:hover {
+  background-color: White;
+  color:            Green;
+}
